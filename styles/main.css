@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282421;
+}
+
+img {
+  max-width: min(400px, 80vw);
+  border-radius: calc(2rem + 2vw);
+}
