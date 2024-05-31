@@ -1,13 +1,20 @@
+:root {
+  --ink: #282421;
+  --cover-gold: #f8a21c;
+  --cover-orange: #ed3f27;
+}
+
 body {
   margin: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #282421;
+  background-color: var(--ink);
 }
 
 img {
   max-width: min(400px, 80vw);
   border-radius: calc(2rem + 2vw);
+  border: calc(0.5rem + 0.5vw) solid var(--cover-gold);
 }
